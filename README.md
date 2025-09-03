@@ -34,5 +34,6 @@ git clone https://github.com/farrafadzil/back-end-test-vista.git
 - npx prisma generate
 
 ## 4. Start the server
-npm start
+- npm run build
+- npm start
 
