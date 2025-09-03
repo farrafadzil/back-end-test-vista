@@ -29,6 +29,10 @@ git clone https://github.com/farrafadzil/back-end-test-vista.git
   DATABASE_URL="mysql://root:@localhost:3306/company_service_db"
 - Replace with your MySQL and make sure the database exists.
 
-## 3. Start the server
+## 3. Set up the database
+npx prisma migrate dev --name init
+npx prisma generate
+
+## 4. Start the server
 npm start
 
